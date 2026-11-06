@@ -1,0 +1,10 @@
+version: 1.1.5
+endpoints:
+  custom:
+    - name: "Scaleway"
+      apiKey: "${SCALEWAY_API_KEY}"
+      baseURL: "https://api.scaleway.ai/v1"
+      models:
+        default: ["mistral-small-3.2-24b-instruct-2506"]
+        fetch: true
+      modelDisplayLabel: "Scaleway"
