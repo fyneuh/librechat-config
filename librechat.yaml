@@ -2,6 +2,50 @@ version: 1.1.5
 
 cache: true
 
+interface:
+
+  modelSelect: true
+
+modelSpecs:
+
+  enforce: false
+
+  prioritize: true
+
+  addedEndpoints:
+
+    - Scaleway
+
+    - agents
+
+  list:
+
+    - name: "rapide"
+
+      label: "Rapide et économique"
+
+      description: "Mistral Small : tâches simples et brouillons."
+
+      default: true
+
+      preset:
+
+        endpoint: "Scaleway"
+
+        model: "mistral-small-3.2-24b-instruct-2506"
+
+    - name: "puissant"
+
+      label: "Puissant"
+
+      description: "Le plus gros modèle de la liste Scaleway. Plus cher."
+
+      preset:
+
+        endpoint: "Scaleway"
+
+        model: "qwen3.5-397b-a17b"
+
 endpoints:
 
   custom:
