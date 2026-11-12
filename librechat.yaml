@@ -18,8 +18,7 @@ modelSpecs:
 
     - agents
 
-  fileConfig:
-    legacyFileUploadUX: true
+
 
   list:
 
@@ -50,6 +49,9 @@ modelSpecs:
         model: "qwen3.5-397b-a17b"
 
 endpoints:
+
+fileConfig:
+  legacyFileUploadUX: true
 
   custom:
 
