@@ -18,6 +18,9 @@ modelSpecs:
 
     - agents
 
+  fileConfig:
+    legacyFileUploadUX: true
+
   list:
 
     - name: "rapide"
