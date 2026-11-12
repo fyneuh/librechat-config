@@ -50,8 +50,6 @@ modelSpecs:
 
 endpoints:
 
-fileConfig:
-  legacyFileUploadUX: true
 
   custom:
 
